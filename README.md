@@ -9,7 +9,10 @@ version is [1.3](https://www.rfc-editor.org/rfc/rfc8446) and standard port is 44
 
 * [OpenSSL](https://www.openssl.org/)
 * [Docker](https://www.docker.com/)
-  / [[Podman](https://podman.io/), [Podman-compose](https://github.com/containers/podman-compose), [Podman Desktop](https://podman-desktop.io/)]
+* Podman
+  * [Podman](https://podman.io/)
+  * [Podman-compose](https://github.com/containers/podman-compose)
+  * [Podman Desktop](https://podman-desktop.io/)
 
 ## General Concepts
 
