@@ -46,7 +46,11 @@ of X.509 Certificate (X.509 is a standard format for public key certificates).
 
 ### PKI
 
+[comment]: <> (Your comment text)
+
 ```shell
+#!/bin/bash
+
 openssl version
 # step 1: ca
 # generate private key and self-signed certificate

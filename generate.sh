@@ -1,6 +1,8 @@
+#!/bin/bash
+
 rm *.pem
 
-openssl version
+openssl version a
 
 openssl req -x509 -newkey rsa:4096 -days 365 -nodes -keyout ca-key.pem -out ca-cert.pem -subj "/C=IR/ST=Tehran/L=Tehran/O=CA Home/OU=Developing/CN=*.ca.home/emailAddress=ca.home@gmail.com"
 openssl x509 -in ca-cert.pem -noout -text

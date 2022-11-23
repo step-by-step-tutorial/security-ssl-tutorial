@@ -1,4 +1,5 @@
 echo off
+
 del *.pem
 
 openssl version
