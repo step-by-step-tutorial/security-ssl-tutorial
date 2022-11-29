@@ -2,3 +2,7 @@
 *.pem
 *.cnf
 *.srl
+*.crt
+*.csr
+*.pub
+*key*
